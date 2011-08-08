@@ -1,0 +1,17 @@
+[user]
+	name = sinsengumi
+	email = tomoya.sinsengumi@gmail.com
+[color]
+	ui = auto
+[core]
+	editor = 'C:/Program Files (x86)/sakura2-0-2-0/sakura.exe' -CODE=4
+	autocrlf = false
+[alias]
+	ci = commit
+	co = checkout
+	st = status
+	di = diff
+	sh = show
+	br = branch
+[i18n]
+	commitencoding = UTF-8
