@@ -13,4 +13,6 @@
 	di = diff
 	sh = show
 	br = branch
+[i18n]
+	commitencoding = UTF-8
 
