@@ -87,3 +87,14 @@ set wildmenu
 
 " バックアップファイルを作成しない
 set nobackup
+
+
+"-----------------------------------------------------------------------------
+" 自動実行
+"-----------------------------------------------------------------------------
+
+" vimgrep実行時に、自動でcopenを行う
+augroup grepopen
+	autocmd!
+	autocmd QuickfixCmdPost vimgrep cw
+augroup END
